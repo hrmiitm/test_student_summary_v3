@@ -1,0 +1,18 @@
+:root{--bg:#f7fafc;--panel:#ffffff;--muted:#6b7280;--accent:#2c7fb8}
+*{box-sizing:border-box;font-family:Inter,Segoe UI,Roboto,Arial,sans-serif}
+body{margin:0;background:var(--bg);color:#111}
+header{display:flex;align-items:center;gap:16px;padding:20px 24px;background:var(--panel);border-bottom:1px solid #e6edf3}
+#logo{width:64px;height:64px;border-radius:8px}
+h1{margin:0;font-size:20px}
+.muted{color:var(--muted);margin:4px 0 0}
+main{padding:20px;max-width:980px;margin:18px auto}
+section{margin-bottom:22px}
+.table-wrap{overflow:auto;background:var(--panel);padding:12px;border-radius:8px;border:1px solid #e6edf3}
+table{border-collapse:collapse;width:100%}
+th,td{padding:8px 10px;border-bottom:1px solid #eef4f8;text-align:left;font-size:13px}
+th{background:#f1f8fc;color:#033c5a}
+.cat-grid{display:flex;gap:16px;flex-wrap:wrap}
+.cat{background:var(--panel);padding:12px;border-radius:8px;border:1px solid #e6edf3;flex:1;min-width:220px}
+.histogram{max-width:100%;height:auto;border:1px solid #e6edf3;padding:6px;background:#fff;border-radius:6px}
+footer{max-width:980px;margin:0 auto;padding:12px;color:var(--muted);font-size:13px}
+.caption{color:var(--muted);font-size:13px}
