@@ -1,0 +1,155 @@
+{
+  "rows": 10,
+  "columns": 9,
+  "column_names": [
+    "Student ID",
+    "Name",
+    "Math",
+    "Science",
+    "English",
+    "History",
+    "Total",
+    "Average",
+    "Grade"
+  ],
+  "columns_info": [
+    {
+      "name": "Student ID",
+      "dtype": "object",
+      "missing": 0
+    },
+    {
+      "name": "Name",
+      "dtype": "object",
+      "missing": 0
+    },
+    {
+      "name": "Math",
+      "dtype": "int64",
+      "missing": 0
+    },
+    {
+      "name": "Science",
+      "dtype": "int64",
+      "missing": 0
+    },
+    {
+      "name": "English",
+      "dtype": "int64",
+      "missing": 0
+    },
+    {
+      "name": "History",
+      "dtype": "int64",
+      "missing": 0
+    },
+    {
+      "name": "Total",
+      "dtype": "int64",
+      "missing": 0
+    },
+    {
+      "name": "Average",
+      "dtype": "float64",
+      "missing": 0
+    },
+    {
+      "name": "Grade",
+      "dtype": "object",
+      "missing": 0
+    }
+  ],
+  "numeric_summary": {
+    "Math": {
+      "count": 10,
+      "mean": 77.3,
+      "median": 78.5,
+      "std": 13.0728726758888,
+      "min": 58.0,
+      "25%": 67.5,
+      "50%": 78.5,
+      "75%": 87.25,
+      "max": 95.0
+    },
+    "Science": {
+      "count": 10,
+      "mean": 77.6,
+      "median": 82.5,
+      "std": 12.920268315067352,
+      "min": 55.0,
+      "25%": 68.5,
+      "50%": 82.5,
+      "75%": 88.0,
+      "max": 92.0
+    },
+    "English": {
+      "count": 10,
+      "mean": 77.8,
+      "median": 79.0,
+      "std": 11.242775458044157,
+      "min": 60.0,
+      "25%": 69.25,
+      "50%": 79.0,
+      "75%": 86.5,
+      "max": 94.0
+    },
+    "History": {
+      "count": 10,
+      "mean": 78.1,
+      "median": 82.5,
+      "std": 13.050755618822315,
+      "min": 55.0,
+      "25%": 72.75,
+      "50%": 82.5,
+      "75%": 87.75,
+      "max": 91.0
+    },
+    "Total": {
+      "count": 10,
+      "mean": 310.8,
+      "median": 322.0,
+      "std": 48.67762433717479,
+      "min": 235.0,
+      "25%": 280.75,
+      "50%": 322.0,
+      "75%": 346.25,
+      "max": 366.0
+    },
+    "Average": {
+      "count": 10,
+      "mean": 77.7,
+      "median": 80.5,
+      "std": 12.169406084293698,
+      "min": 58.75,
+      "25%": 70.1875,
+      "50%": 80.5,
+      "75%": 86.5625,
+      "max": 91.5
+    }
+  },
+  "categorical_top_values": {
+    "Student ID": {
+      "S001": 1,
+      "S002": 1,
+      "S003": 1,
+      "S004": 1,
+      "S005": 1
+    },
+    "Name": {
+      "Alice Johnson": 1,
+      "Bob Smith": 1,
+      "Charlie Brown": 1,
+      "David Lee": 1,
+      "Emma Davis": 1
+    },
+    "Grade": {
+      "A": 3,
+      "B": 2,
+      "A+": 2,
+      "C": 2,
+      "B+": 1
+    }
+  },
+  "histogram_for": "Total",
+  "sample_copied": true
+}
