@@ -1,22 +1,20 @@
-Student Summary v3
+# student_summary_v3
 
-This repository contains a static HTML summary page for the provided student_data.csv. The index.html file is the GitHub Pages entry point and includes a small dataset overview, sample rows and an embedded histogram image.
+This repository contains a simple static summary page for the provided `student_data.csv`.
 
-Files you should have / provide:
-- index.html  (main summary page)
-- student_data.csv  (the input CSV used to generate the summary — must be present in the repo root)
-- sample.png  (logo image already provided)
-- historgram.png  (histogram image generated from the CSV)
+What is included:
+- index.html — HTML report summarizing the CSV (overview, numeric stats, categorical top values) and displaying the histogram.
+- style.css — Styles for the report.
+- script.js — Small script for UI enhancements.
 
-Notes on generation:
-- The CSV columns detected were: Student ID, Name, Math, Science, English, History, Total, Average, Grade
-- Number of rows detected: 10
-- Numeric columns: Math, Science, English, History, Total, Average
-- A histogram image was generated using the first numeric column (Math) and saved as historgram.png.
+Generated assets (created by the helper script and saved separately):
+- histogram.png — Histogram image for the primary numeric column (Total). Place this file next to index.html.
+- sample.png — Provided logo/sample image (if available). Place next to index.html.
 
-What you (or CI) should do before publishing on GitHub Pages:
-1. Place the generated historgram.png next to index.html (repo root) if it is not already present. In some workflows this is created in an output folder; move it to the repo root or update the <img> path in index.html.
-2. Verify student_data.csv is present in the repository root if you want to regenerate charts.
-3. Enable GitHub Pages for the repository (Settings → Pages → pick branch and folder root). The index.html file at the root will be served.
+How to use:
+1. Ensure the following files are in the repository root next to index.html: `histogram.png` and `sample.png`.
+2. Open `index.html` in a browser (or serve via GitHub Pages) to view the report.
 
-If you want, I can also provide the Python script used to generate the histogram and more charts, or embed the histogram directly into the page as an inline base64 image. Let me know which you prefer.
+Notes:
+- The CSV used had 10 rows and 9 columns: Student ID, Name, Math, Science, English, History, Total, Average, Grade.
+- The histogram was generated for the "Total" column.
